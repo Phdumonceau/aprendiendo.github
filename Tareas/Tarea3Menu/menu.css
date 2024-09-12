@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+
+ul {
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+}

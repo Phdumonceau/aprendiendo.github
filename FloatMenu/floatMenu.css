@@ -1,0 +1,27 @@
+body,
+menu {
+  padding: 0;
+  margin: 0;
+}
+menu ul {
+  margin: 0;
+}
+
+menu {
+  background-color: black;
+  color: white;
+  line-height: 50px;
+  display: flow-root;
+}
+
+menu li {
+  float: left;
+  margin-right: 50px;
+  /* el margen es el espacio de cada casilla respecto a las letras */
+  /* estoy pidiendo 50 px de espacio a la derecha */
+}
+
+menu a {
+  color: white;
+  text-decoration: none;
+}

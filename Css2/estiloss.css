@@ -1,0 +1,33 @@
+/* EL modelo de cajas de Css indica que tenemos;
+1.-Border = Borde
+2.-Margin = Margen
+3.-Padding = Relleno
+4.-Area de contenido
+Backgound-color: este es el "color de fondo" 
+de un elemento */
+
+/* vamos a ver el vorder */
+
+.border-box {
+  /* borde solido de 1 pixel de color negro */
+  border: solid 1px black;
+  /* Con esto asignamos el margen */
+  margin: 50px;
+  /* El paddin es un espacio interno de relleno */
+  padding: 20px;
+}
+
+/* Modelo en cascada */
+/* En css todos los estilos se 
+van leyendo de arriba hacia abajo,
+en donde la ultima regla es la que prima.  */
+
+p {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+/* En este caso los textos del parrafo "p", seran de 
+color azul y no rojo  */

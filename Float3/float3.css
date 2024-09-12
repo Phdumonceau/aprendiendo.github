@@ -1,0 +1,8 @@
+section {
+  display: flow-root;
+  border: solid 5px black;
+}
+
+img {
+  float: left;
+}

@@ -1,0 +1,22 @@
+li {
+  color: blue;
+}
+
+/* Para poder conectar este archivo de css
+Necesitamos aplicar una etiqueta llamada "link" */
+
+/* 
+Formas de añadir CSS "<stile>":
+
+1.Una etiqueta (body, p, h1, a, ul, li) cuando queremos
+cambiar todas las etiquetas de ese tipo.
+
+2.Una clase ejemplo: .par-1 cuando queremos cambiar 
+algunos elementos en especificos que dejaremos como 
+el mismo tipo de "clase".
+
+3.Un identificador #par-1 cuando solo queremos cambiar 
+un "unico" elemento.
+
+
+*/

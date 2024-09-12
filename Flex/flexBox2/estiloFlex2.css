@@ -1,0 +1,20 @@
+body {
+  /* Con el margin 0, no tendra espacios alrededor */
+  margin: 0;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  /* width = Ancho */
+  /* La imagen tomara el espacio del 25% del ancho */
+  width: 25%;
+}
+.box img {
+  /* Le estamos indicando a la imagen que tome el 
+    100% del espacio de su caja del div respectivo*/
+  width: 100%;
+}

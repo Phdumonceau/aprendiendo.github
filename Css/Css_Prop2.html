@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--3.- Tenemos que ver: 1) rel = el tipo de archivo a linkear
+            2) la fuente uu origen donde se encuentre el archivo -->
+    <link rel="stylesheet" href="estilosProp2.css" />
+  </head>
+
+  <!-- Tenemos 3 formas de trabajar con CSS:  -->
+
+  <!------------------------------------------------------------->
+  <!-- 1.-Alicando/Abriendo una etiqueta de "style"
+   
+  Esto me permitara usar editar mi 
+   HTML como si estuviera en Css -->
+
+  <style>
+    p {
+      color: green;
+    }
+  </style>
+
+  <p>forma 1: Este texto toma la edicion de la etiqueta "style".</p>
+
+  <!-- La etiqueta edita el parrafo en el mismo HTML -->
+  <!---------------------------------------------------------------->
+
+  <!-- 2.-Agregando "style" a la etiqueta -->
+  <p style="color: red">
+    forma 2: Se le agrega el atributo a la etiqueta del parrafo "p".
+  </p>
+
+  <!-------------------------------------------------------------->
+  <!-- 3.-Creando un archivo exclusivo para css -->
+
+  <!-- Para poder conectar este archivo de css
+Necesitamos aplicar una etiqueta llamada "link"
+tiene que estar aplicado en el "Head" -->
+
+  <body>
+    <li>forma 3: Creando un archivo exclusivo para css.</li>
+  </body>
+</html>

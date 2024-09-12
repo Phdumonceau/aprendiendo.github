@@ -1,0 +1,45 @@
+menu {
+  background-color: black;
+  color: white;
+  line-height: 50px;
+}
+
+menu li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+menu a {
+  color: white;
+  text-decoration: none;
+}
+
+menu a:hover {
+  /* El hover = al apuntar
+  Este es para cambiar de color al apuntar de blanco a dorado */
+  color: goldenrod;
+
+  /* tenemos los pseudo-clase: para seleccionar y aplicar los estilos
+  a elementos en funcion de su estao o relacion con otros elementos en el documentos
+   -> :hover, :active, :focus */
+
+  /* los Pseudo elementos: se utilizan para seleccionar y aplicar estilos a partes especificas
+de un elemento: 
+-> ::before, ::after, ::firs-line  */
+}
+
+p::first-letter {
+  font: size 1.5em;
+  font-weight: bold;
+  color: red;
+}
+
+body,
+menu {
+  padding: 0px;
+  margin: 0px;
+}
+
+menu ul {
+  margin: 0px;
+}

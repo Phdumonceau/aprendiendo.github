@@ -1,0 +1,57 @@
+body {
+  /* Con el margin 0, no tendra espacios alrededor */
+  margin: 0;
+}
+
+.contenedor {
+  display: flex;
+  /* justify es la ubicacion del contenido */
+  justify-content: center;
+}
+
+.contenedor2 {
+  display: flex;
+  justify-content: right;
+  /* derecha */
+}
+
+.contenedor3 {
+  display: flex;
+  justify-content: left;
+  /* izquierda */
+}
+
+.contenedor4 {
+  display: flex;
+  justify-content: end;
+    /* derecha */
+}
+
+.contenedor5 {
+  display: flex;
+  justify-content: start;
+   /* izquierda */
+}
+/* end = right 
+   start = left*/
+
+/* por defecto, flexbox utiliza flex-wrap: nowrap; 
+   esto hace que los elementos aparezcan en una unica linea,
+   por lo que si queremos hacer algo como una galeria de imagenes
+   con flex, tenemos que cambiarla por flex-wrap:wrap */
+/* esto es para que sea una galeria, y no una linea horizontal */
+.contenedor6 {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify es la ubicacion del contenido */
+  justify-content: start;
+}
+
+.box {
+  /* width = Ancho */
+  /* La imagen tomara el espacio del 25% del ancho */
+  width: 25%;
+}
+.box img {
+  width: 100%;
+}

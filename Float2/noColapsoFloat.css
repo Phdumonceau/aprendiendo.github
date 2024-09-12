@@ -1,0 +1,10 @@
+.features {
+  display: flow-root;
+  /* sin esta propiedad no se ve el fondo */
+  background-color: red;
+}
+
+p {
+  float: left;
+  width: 33%;
+}
